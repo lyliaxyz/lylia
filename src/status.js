@@ -23,7 +23,7 @@ const getBuffer = async (url, options) => {
 };
 
 module.exports = function (app) {
-    app.get('/vercel/status', async (req, res) => {
+    app.get('/status', async (req, res) => {
         const { apikey } = req.query;
 
         if (!global.apikey.includes(apikey)) {
