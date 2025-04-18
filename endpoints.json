@@ -168,5 +168,15 @@
           "path": "/stalk/npm?apikey=&name="
         }        
       ]
+},
+{
+      "icon": "fa-brands fa-github",
+      "category": "More",
+      "api": [
+         {
+           "name": "Runtime Apikey",
+           "path": "/status/apikey="
+         }
+      ]
 }
 ]
