@@ -175,7 +175,7 @@
       "api": [
          {
            "name": "Runtime Apikey",
-           "path": "/status/apikey="
+           "path": "/vercel/status/apikey="
          }
       ]
 }
